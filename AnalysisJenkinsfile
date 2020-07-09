@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+stages{
+            post {
+                success {
+                    echo 'Completed TPCx-BB Benchmark Phase. Copying Results.... '
+                    //archiveArtifacts artifacts: '/root/Big-Data-Benchmark-for-Big-Bench/logs/log*/*.csv'
+                    sh 'ls -lrt /root/Big-Data-Benchmark-for-Big-Bench/logs/logs-2019*/run-logs'
+                }
+            }
+        }
+
+        stage ('Analysing Results'){
+            parallel{
+                stage ('Generating Jupiter Notebook for Analysis'){
+                    steps {
+                        echo 'Procuring artifacts....'
+                        sh './root/Big-Data-Benchmark-for-Big-Bench/logGen.sh'
+                        echo 'Jupiter Notebook Generated... Available at URL :'
+                    }
+                }
+
+                stage ("Generating ML dataset with CDH configs and TPCx-BB Results"){
+                    steps {
+                        echo 'ML dataset generated'
+                    }
+                }
+            }
+        }
+    }

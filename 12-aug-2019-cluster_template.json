@@ -1,0 +1,191 @@
+{
+    "cdhVersion": "5.12.2", 
+    "cmVersion": "5.12.0", 
+    "displayName": "Cluster 1", 
+    "hostTemplates": [
+        {
+            "cardinality": 0.0, 
+            "refName": "sparkHostTemplate", 
+            "roleConfigGroupsRefNames": [
+                "spark_on_yarn-GATEWAY-BASE", 
+                "spark_on_yarn-SPARK_YARN_HISTORY_SERVER-BASE"
+            ]
+        }
+    ], 
+    "instantiator": {
+        "clusterName": "<changeme>", 
+        "hosts": [
+            {
+                "hostName": "<changeme>", 
+                "hostTemplateRefName": "<changeme>"
+            }, 
+            {
+                "hostNameRange": "<HOST[0001-0002]>", 
+                "hostTemplateRefName": "<changeme>"
+            }
+        ], 
+        "roleConfigGroups": [
+            {
+                "name": "", 
+                "rcgRefName": "hdfs-DATANODE-1"
+            }, 
+            {
+                "name": "", 
+                "rcgRefName": "hdfs-DATANODE-2"
+            }, 
+            {
+                "name": "", 
+                "rcgRefName": "yarn-NODEMANAGER-2"
+            }, 
+            {
+                "name": "", 
+                "rcgRefName": "yarn-NODEMANAGER-1"
+            }, 
+            {
+                "name": "", 
+                "rcgRefName": "yarn-JOBHISTORY-1"
+            }
+        ], 
+        "variables": [
+            {
+                "name": "hdfs-NAMENODE-BASE-dfs_name_dir_list", 
+                "value": "/hadooptemp/dfs/nn"
+            }, 
+            {
+                "name": "hdfs-SECONDARYNAMENODE-BASE-fs_checkpoint_dir_list", 
+                "value": "/hadooptemp/dfs/snn"
+            }, 
+            {
+                "name": "hdfs-ssl_server_keystore_password", 
+                "value": "<changeme>"
+            }, 
+            {
+                "name": "hive-hive_metastore_database_host", 
+                "value": "bdw21-13"
+            }, 
+            {
+                "name": "hive-hive_metastore_database_name", 
+                "value": "hive"
+            }, 
+            {
+                "name": "hive-hive_metastore_database_password", 
+                "value": "<changeme>"
+            }, 
+            {
+                "name": "hive-hive_metastore_database_port", 
+                "value": "7432"
+            }, 
+            {
+                "name": "hive-hive_metastore_database_type", 
+                "value": "postgresql"
+            }, 
+            {
+                "name": "yarn-NODEMANAGER-2-yarn_nodemanager_local_dirs", 
+                "value": "/data/10/yarn/nm,/data/11/yarn/nm,/data/12/yarn/nm,/data/13/yarn/nm,/data/14/yarn/nm,/data/15/yarn/nm,/data/16/yarn/nm,/data/2/yarn/nm,/data/3/yarn/nm,/data/4/yarn/nm,/data/5/yarn/nm,/data/6/yarn/nm,/data/7/yarn/nm,/data/8/yarn/nm,/data/9/yarn/nm"
+            }, 
+            {
+                "name": "yarn-NODEMANAGER-BASE-yarn_nodemanager_local_dirs", 
+                "value": "/data/1/yarn/nm,/data/10/yarn/nm,/data/11/yarn/nm,/data/12/yarn/nm,/data/13/yarn/nm,/data/14/yarn/nm,/data/15/yarn/nm,/data/16/yarn/nm,/data/2/yarn/nm,/data/3/yarn/nm,/data/4/yarn/nm,/data/5/yarn/nm,/data/6/yarn/nm,/data/7/yarn/nm,/data/8/yarn/nm,/data/9/yarn/nm"
+            }
+        ]
+    }, 
+    "products": [
+        {
+            "product": "CDH", 
+            "version": "5.12.2-1.cdh5.12.2.p0.4"
+        }
+    ], 
+    "repositories": [
+        "https://archive.cloudera.com/cdh5/parcels/{latest_supported}/", 
+        "https://archive.cloudera.com/cdh4/parcels/latest/", 
+        "https://archive.cloudera.com/impala/parcels/latest/", 
+        "https://archive.cloudera.com/search/parcels/latest/", 
+        "https://archive.cloudera.com/accumulo/parcels/1.4/", 
+        "https://archive.cloudera.com/accumulo-c5/parcels/latest/", 
+        "https://archive.cloudera.com/kafka/parcels/latest/", 
+        "http://archive.cloudera.com/kudu/parcels/latest/", 
+        "https://cloudera.com/downloads/", 
+        "https://archive.cloudera.com/spark/parcels/latest/", 
+        "https://archive.cloudera.com/sqoop-connectors/parcels/latest/"
+    ], 
+    "services": [
+        {
+            "refName": "hdfs", 
+            "serviceConfigs": [
+                {
+                    "name": "hdfs_service_config_safety_valve", 
+                    "value": "<property><name>dfs.permissions</name><value>false</value></property>"
+                }, 
+                {
+                    "name": "ssl_server_keystore_password", 
+                    "variable": "hdfs-ssl_server_keystore_password"
+                }
+            ], 
+            "serviceType": "HDFS"
+        }, 
+        {
+            "refName": "yarn", 
+            "serviceType": "YARN"
+        }, 
+        {
+            "refName": "zookeeper", 
+            "serviceConfigs": [
+                {
+                    "name": "service_config_suppression_server_count_validator", 
+                    "value": "true"
+                }
+            ], 
+            "serviceType": "ZOOKEEPER"
+        }, 
+        {
+            "refName": "spark_on_yarn", 
+            "roleConfigGroups": [
+                {
+                    "base": true, 
+                    "refName": "spark_on_yarn-SPARK_YARN_HISTORY_SERVER-BASE", 
+                    "roleType": "SPARK_YARN_HISTORY_SERVER"
+                }, 
+                {
+                    "base": true, 
+                    "refName": "spark_on_yarn-GATEWAY-BASE", 
+                    "roleType": "GATEWAY"
+                }
+            ], 
+            "serviceType": "SPARK_ON_YARN"
+        }, 
+        {
+            "refName": "hive", 
+            "serviceConfigs": [
+                {
+                    "name": "hive_metastore_database_type", 
+                    "variable": "hive-hive_metastore_database_type"
+                }, 
+                {
+                    "name": "hive_metastore_database_host", 
+                    "variable": "hive-hive_metastore_database_host"
+                }, 
+                {
+                    "name": "hive_proxy_user_groups_list", 
+                    "value": "hdfs,root"
+                }, 
+                {
+                    "name": "hive_metastore_database_name", 
+                    "variable": "hive-hive_metastore_database_name"
+                }, 
+                {
+                    "name": "hive_metastore_database_password", 
+                    "variable": "hive-hive_metastore_database_password"
+                }, 
+                {
+                    "name": "service_config_suppression_hive_proxy_groups_validator", 
+                    "value": "true"
+                }, 
+                {
+                    "name": "hive_metastore_database_port", 
+                    "variable": "hive-hive_metastore_database_port"
+                }
+            ], 
+            "serviceType": "HIVE"
+        }
+    ]
+}

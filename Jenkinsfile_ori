@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    parameters {
+         string(name: 'BenchmarkPhases', defaultValue: 'POWER_TEST', description: 'TPCxBB benchmark phases')
+         string(name: 'ScaleFactor', defaultValue: '100', description: 'TPCxBB dataset size')
+    }
+
+    triggers {
+         pollSCM('* * * * 3')
+     }
+
+stages{
+        stage('TPCxBB Benchmark Phase'){
+            steps {
+                //sh './bin/bigBench runBenchmark -d bigbench${params.ScaleFactor}gb -e hive -f $ScaleFactor -m 440 -s 10 -b -i ${params.BenchmarkPhases} -j 2'
+				echo 'Executing benchmark .........'
+            }
+            post {
+                success {
+                    echo 'Completed TPCx-BB Benchmark Phase. Copying Results.... ${params.BenchmarkPhases}'
+                    //archiveArtifacts artifacts: '**/target/*.csv'
+	            //archiveArtifacts artifacts: '**/target/*.log'
+                }
+            }
+        }
+
+        stage ('Saving Results'){
+            parallel{
+                stage ('Copying csv files'){
+                    steps {
+                        echo 'csv filed copied'
+                    }
+                }
+
+                stage ("Copying all benchmark results files"){
+                    steps {
+                        echo 'all result files copied'
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+stages{
+        stage('Power-Phase Executions'){
+           steps {
+		   sh '''
+		   su - root - << EOF
+                   echo "sleep 1000" > /root/jenkinsBuildscript.sh
+                   cd /var/jenkins_home/workspace/TPCx-BB_PAT/PAT/PAT-collecting-data/
+		   ./pat run
+		   '''
+	}
+            post {
+                success {
+                    echo 'Completed TPCx-BB Benchmark Phase. Copying Results.... '
+                    sh 'cd /root/Big-Data-Benchmark-for-Big-Bench/ ; cp logGen_idle.sh logGen.sh'
+                    TuneComment='7-datanodes-IdleRun'
+                    sh '/root/Big-Data-Benchmark-for-Big-Bench/logGen.sh ${BUILD_TAG} ${TuneComment}' 
+                    echo 'Artifacts of TPCx-BB Benchmark Phase results and PAT logs back up completed.... '
+                }
+            }
+        }
+
+        stage ('Analysing Results'){
+            parallel{
+                stage ('Generating Jupiter Notebook for Analysis'){
+                    steps {
+                        echo 'Jupiter Notebook Generated... Available at URL :'
+                    }
+                }
+
+                stage ("Generating ML dataset with CDH configs and TPCx-BB Results"){
+                    steps {
+                        echo 'ML dataset generated'
+                    }
+                }
+            }
+        }
+    }
+}

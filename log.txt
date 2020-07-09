@@ -1,0 +1,59 @@
+[?1049h[?1h=[1;59r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[59;1H".git/COMMIT_EDITMSG" 75L, 1821C[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#[7Cnew file:   hiveJenkinsfile
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#[7C...
+#[7C12-aug-2019-cluster_template.json
+#[7C13sep-2019-cluster_template.json
+#[7CAllqueryJenFile
+#[7CAnalysisJenkinsfile
+#[7CBDclient/
+#[7CBig-Data-Benchmark-for-Big-Bench/
+#[7CHadoopJobCounters.py
+#[7CJenkinsfile
+#[7CJenkinsfile_ori
+#[7CJenkinsfile_works
+#[7CPAT/
+#[7CREADME.md
+#[7CSingleJenFile
+#[7CSinglePatJenFile
+#[7CSinglePatJenFile_bkp_mk
+#[7CSinglePatJenFile_bkp_ori
+#[7CSinglePatJenFile_new_forLoop
+#[7CSinglePatJenFile_works
+#[7CcdhCluster-restart.py
+#[7CcdhService.py
+#[7Ccm_config_modifier/
+#[7Cconfig
+#[7Cconfig_modifier.py
+#[7Ccsi-driver/
+#[7CdataGenerator.py
+#[7Cexport-from-CDH.py
+#[7Cexport-from-CDH.py_bkp
+#[7Cexport-from-CDH.py_new
+#[7Cgit_push.sh
+#[7ChiveJenkinsfile-mtunes
+#[7ChiveJenkinsfile_25Nov2019
+#[7ChiveJenkinsfile_bkp
+#[7ChiveJenkinsfile_works
+#[7Cimport-to-CDH.py
+#[7Cimport-to-CDH1.py
+#[7Cjdk1.7.0_67-cloudera/
+#[7Clog.txt
+#[7CpatDataGenhiveJenkinsfile
+#[7CpatDataGenhiveJenkinsfile_ori
+#[7CpatIdleJenkinsfile
+#[7CpatJenkinsfile_ori
+#[7Cproperties_q30_7datanode_300sf.json[1;1H[?12l[?25h[?25l[59;1H[1m-- INSERT --[m[59;13H[K[2;58r[2;1H[2L[1;59r[1;1HSH-2.0-OpenSSH_6.6.1
+
+[?12l[?25h

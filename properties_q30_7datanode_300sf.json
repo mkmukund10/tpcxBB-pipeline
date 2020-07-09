@@ -1,0 +1,10 @@
+{
+    "hiveDatabase": "bbench300",
+    "DataEngine": "hive",
+    "ScaleFactor": "300",
+    "NoOfDataNodes": "7",
+    "mapTasks": "440",
+    "streams": "10",
+    "benchmarkPhase": "POWER_TEST",
+    "QueryNo": "30"
+    }

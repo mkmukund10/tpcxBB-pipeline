@@ -1,0 +1,81 @@
+pipeline {
+    agent any
+
+parameters {
+         string(name: 'hiveDatabase', defaultValue: 'bbench100', description: 'TPCxBB hive databse name')
+         string(name: 'DataEngine', defaultValue: 'hive', description: 'Data processing engine hive or spark')
+         string(name: 'ScaleFactor', defaultValue: '100', description: 'TPCx-BB dataset size')
+         string(name: 'mapTasks', defaultValue: '432', description: 'No of map tasks')
+         string(name: 'streams', defaultValue: '10', description: 'No of parallel queries to run: #streams')
+         string(name: 'benchmarkPhase', defaultValue: 'POWER_TEST', description: 'TPCx-BB benchmark Phase to run query')
+         string(name: 'QueryNo', defaultValue: '28', description: 'Single or comma separated list of queries')
+         string(name: 'TuneComment', defaultValue: 'Query28-check-mapred-javaHeap2g', description: 'TPCxBB Tuning comment')
+         string(name: 'yarnTune1', defaultValue: 'yarn.nodemanager.resource.memory.mb=250', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'yarnTune2', defaultValue: 'yarn.nodemanager.resource.cpu.vcores=60', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'yarnTune3', defaultValue: 'mapreduce.map.memory.mb=2048', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'yarnTune4', defaultValue: 'mapreduce.reduce.memory.mb=2048', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'yarnTune5', defaultValue: 'mapreduce.map.java.opts=2048', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'yarnTune6', defaultValue: 'mapreduce.reduce.java.opts=2048', description: 'TPCxBB Yarn Tuning key=value pair')
+         string(name: 'hiveTune1', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune2', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune3', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune4', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune5', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune6', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune7', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+         string(name: 'hiveTune8', defaultValue: 'hiveTune=hive.auto.convert.join=true', description: 'TPCxBB Tuning key=value pair')
+    }
+
+
+stages{
+        stage('All Query Executions'){
+           steps {
+		   sh '''
+		   su - root - << EOF
+                   echo $yarnTune1:'NodeManager Group 2'
+                   echo $yarnTune2:'NodeManager Group 1'
+                   python config_modifier.py -t $yarnTune1:'NodeManager Group 2' -t $yarnTune1:'NodeManager Group 1' -t $yarnTune1 -t $yarnTune2 -t $yarnTune2:'NodeManager Group 2' -t $yarnTune2:'NodeManager Group 1' -t $yarnTune3 -t $yarnTune4 -t $yarnTune5 -t $yarnTune6
+                   sleep 250
+                   mv /var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql /var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql_ori
+                   echo $hiveTune1 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune2 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune3 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune4 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune5 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune6 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune7 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+                   echo $hiveTune8 >>/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/engines/hive/queries/q$QueryNo/engineLocalSettings.sql
+
+                   echo "/var/jenkins_home/workspace/TPCx-BB_SingleQuery/Big-Data-Benchmark-for-Big-Bench/bin/bigBench runBenchmark -d $hiveDatabase -e $DataEngine -f $ScaleFactor -m $mapTasks -s $streams -b -i $benchmarkPhase -j $QueryNo" > /root/jenkinsBuildscript.sh
+                   #cd /var/jenkins_home/workspace/TPCx-BB_SingleQuery/PAT/PAT-collecting-data/
+		   #./pat run
+                   ./root/jenkinsBuildscript.sh
+		   '''
+	}
+            post {
+                success {
+                    echo 'Completed TPCx-BB Benchmark Phase. Copying Results.... '
+                    sh 'cd /root/Big-Data-Benchmark-for-Big-Bench/ ; cp logGen_SingleQuery.sh logGen.sh'
+                    sh '/root/Big-Data-Benchmark-for-Big-Bench/logGen.sh ${BUILD_TAG} ${TuneComment}' 
+                    echo 'Artifacts of TPCx-BB Benchmark Phase results and PAT logs back up completed.... '
+                }
+            }
+        }
+
+        stage ('Analysing Results'){
+            parallel{
+                stage ('Generating Jupiter Notebook for Analysis'){
+                    steps {
+                        echo 'Jupiter Notebook Generated... Available at URL :'
+                    }
+                }
+
+                stage ("Generating ML dataset with CDH configs and TPCx-BB Results"){
+                    steps {
+                        echo 'ML dataset generated'
+                    }
+                }
+            }
+        }
+    }
+}

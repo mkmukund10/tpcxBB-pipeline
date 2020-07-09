@@ -1,0 +1,17 @@
+{
+  "number_of_rows": 100,
+  "parameters": {
+    "yarn.nodemanager.resource.memory.mb": ["240640", "245760", "250880", "256000"],
+    "yarn.nodemanager.resource.cpu.vcores": ["50", "55", "63"],
+    "mapreduce.map.memory.mb": ["2048", "4096", "8192", "16384"],
+    "mapreduce.reduce.memory.mb": ["2048", "4096", "8192", "16384"],
+    "hive.exec.reducers.max": ["441", "435", "430", "425"],
+    "mapreduce.input.fileinputformat.split.maxsize": ["67108864", "134217728", "268435456", "536870912"],
+    "mapreduce.job.reduce.slowstart.completedmaps": ["0.1", "0.01", "0.08", "0.04"],
+    "hive.optimize.correlation": ["true", "false"],
+    "hive.exec.compress.intermediate": ["true"],
+    "hive.mapjoin.smalltable.filesize": ["600000000"],
+    "hive.auto.convert.join.noconditionaltask": ["true"],
+    "hive.auto.convert.join.noconditionaltask.size": ["100000000"]
+  }
+}
