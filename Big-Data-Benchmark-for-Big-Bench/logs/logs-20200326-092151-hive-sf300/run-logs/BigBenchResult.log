@@ -1,0 +1,18 @@
+Mar 26, 2020 9:15:29 AM io.bigdatabenchmark.v1.driver.BigBench run
+INFO: BigBench benchmark: Start
+Mar 26, 2020 9:15:29 AM io.bigdatabenchmark.v1.driver.BigBench generateData
+INFO: BigBench preparation: Data generation                   (this might take a while...)
+Mar 26, 2020 9:21:48 AM io.bigdatabenchmark.v1.driver.BigBench generateData
+INFO: BigBench preparation: Data generation                   finished. Time:          0h:06m:18s:876ms
+Mar 26, 2020 9:21:48 AM io.bigdatabenchmark.v1.driver.BigBench run
+INFO: BigBench benchmark: Stop                                finished. Time:          0h:06m:18s:880ms
+Mar 26, 2020 9:21:48 AM io.bigdatabenchmark.v1.driver.BigBench computeResult
+INFO: 
+************
+Big Data
+Benchmark
+Result
+v1.0
+************
+Mar 26, 2020 9:21:48 AM io.bigdatabenchmark.v1.driver.BigBench computeResult
+INFO: NOK: Some required BigBench phases were skipped. No final result available.

@@ -1,0 +1,272 @@
+dropping database (with all tables)
+cleaning /home/tpc//Big-Data-Benchmark-for-Big-Bench
+Deleted /home/tpc/Big-Data-Benchmark-for-Big-Bench
+PDGFOptions: -sf 1 
+HadoopClusterExecOptions: -mapTasks 432
+EULA is accepted
+OK
+===============================================
+make hdfs benchmark data dir: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data
+===============================================
+OK
+===============================================
+make hdfs benchmark data dir: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh
+===============================================
+OK
+===============================================
+Creating data generator archive to upload to DistCache
+===============================================
+creating: /tmp/tmp.8YStCAGmnk/pdgfEnvironment.tar
+OK
+===============================================
+Starting distributed hadoop data generation job with: -mapTasks 432
+Temporary result data in hdfs: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data (you can change the data generation target folder in  the /setEnvVars configuration file with the BIG_BENCH_HDFS_ABSOLUTE_INIT_DATA_DIR property)
+logs: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+===============================================
+HADOOP CLASSPATH: /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*
+PDGF_CLUSTER_CONF: -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1
+create /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs folder
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.8YStCAGmnk/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 432 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx800m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 0 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+HadoopClusterExec -exec option args: [/usr/java/jdk1.7.0_67-cloudera/bin/java, -Xmx800m, -cp, /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar, -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber, -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml, -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml, -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native, -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider, -Ddfs.replication.override=-1, pdgf.Controller, -nc, HadoopClusterExec.tasks, -nn, HadoopClusterExec.taskNumber, -ns, -c, -sp, REFRESH_PHASE, 0, -o, '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data/'+table.getName()+'/', -workers, 1, -ap, 3000, -s, -sf, 1]
+HadoopClusterExec -mapTasks: Setting number of map tasks to: 432
+HadoopClusterExec -execCWD: set working directory for exec to: pdgfEnvironment.tar/data-generator/
+
+-------Distributed cache content -----------
+Cache Archives:
+
+Cache Files:
+
+Archive Classpaths:
+
+Local Cache Archives:
+
+Local Cache Files:
+-------/Distributed cache content -----------
+
+19/06/06 02:56:18 INFO client.RMProxy: Connecting to ResourceManager at bdw21-13/1.1.21.13:8032
+19/06/06 02:56:19 INFO hadoop.HadoopClusterExec: HadoopClusterExec.numMaps=432
+19/06/06 02:56:19 INFO hadoop.HadoopClusterExec: CUSTOM SPLITS: Starting 432 tasks
+19/06/06 02:56:19 INFO mapreduce.JobSubmitter: number of splits:432
+19/06/06 02:56:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1559684934279_25910
+19/06/06 02:56:20 INFO impl.YarnClientImpl: Submitted application application_1559684934279_25910
+19/06/06 02:56:20 INFO mapreduce.Job: The url to track the job: http://bdw21-13:8088/proxy/application_1559684934279_25910/
+19/06/06 02:56:20 INFO mapreduce.Job: Running job: job_1559684934279_25910
+19/06/06 02:56:25 INFO mapreduce.Job: Job job_1559684934279_25910 running in uber mode : false
+19/06/06 02:56:25 INFO mapreduce.Job:  map 0% reduce 0%
+19/06/06 02:56:50 INFO mapreduce.Job:  map 1% reduce 0%
+19/06/06 02:56:54 INFO mapreduce.Job:  map 2% reduce 0%
+19/06/06 02:56:55 INFO mapreduce.Job:  map 12% reduce 0%
+19/06/06 02:56:56 INFO mapreduce.Job:  map 74% reduce 0%
+19/06/06 02:56:57 INFO mapreduce.Job:  map 88% reduce 0%
+19/06/06 02:57:07 INFO mapreduce.Job:  map 91% reduce 0%
+19/06/06 02:57:08 INFO mapreduce.Job:  map 98% reduce 0%
+19/06/06 02:57:09 INFO mapreduce.Job:  map 100% reduce 0%
+19/06/06 02:57:09 INFO mapreduce.Job: Job job_1559684934279_25910 completed successfully
+19/06/06 02:57:09 INFO mapreduce.Job: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=65104799
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=34178
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=432
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=432
+		Other local map tasks=432
+		Total time spent by all maps in occupied slots (ms)=12656221
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=12656221
+		Total vcore-milliseconds taken by all map tasks=12656221
+		Total megabyte-milliseconds taken by all map tasks=12959970304
+	Map-Reduce Framework
+		Map input records=432
+		Map output records=0
+		Input split bytes=34178
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=384477
+		CPU time spent (ms)=7218940
+		Physical memory (bytes) snapshot=139517480960
+		Virtual memory (bytes) snapshot=754000441344
+		Total committed heap usage (bytes)=356046077952
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+======= Generating base data time ============ tee -a /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+----- time -----
+Start timestamp: 2019/06/06:02:56:17 1559807777
+Stop  timestamp: 2019/06/06:02:57:10 1559807830
+Duration: 0h 0m 53s
+datagen_base successOrFailSUCCESS exit code: 0
+time&status: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/times.csv
+full log: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.8YStCAGmnk/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 432 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx800m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 1 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+HadoopClusterExec -exec option args: [/usr/java/jdk1.7.0_67-cloudera/bin/java, -Xmx800m, -cp, /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar, -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber, -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml, -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml, -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native, -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider, -Ddfs.replication.override=-1, pdgf.Controller, -nc, HadoopClusterExec.tasks, -nn, HadoopClusterExec.taskNumber, -ns, -c, -sp, REFRESH_PHASE, 1, -o, '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh/'+table.getName()+'/', -workers, 1, -ap, 3000, -s, -sf, 1]
+HadoopClusterExec -mapTasks: Setting number of map tasks to: 432
+HadoopClusterExec -execCWD: set working directory for exec to: pdgfEnvironment.tar/data-generator/
+
+-------Distributed cache content -----------
+Cache Archives:
+
+Cache Files:
+
+Archive Classpaths:
+
+Local Cache Archives:
+
+Local Cache Files:
+-------/Distributed cache content -----------
+
+19/06/06 02:57:11 INFO client.RMProxy: Connecting to ResourceManager at bdw21-13/1.1.21.13:8032
+19/06/06 02:57:12 INFO hadoop.HadoopClusterExec: HadoopClusterExec.numMaps=432
+19/06/06 02:57:12 INFO hadoop.HadoopClusterExec: CUSTOM SPLITS: Starting 432 tasks
+19/06/06 02:57:12 INFO mapreduce.JobSubmitter: number of splits:432
+19/06/06 02:57:12 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1559684934279_25911
+19/06/06 02:57:12 INFO impl.YarnClientImpl: Submitted application application_1559684934279_25911
+19/06/06 02:57:12 INFO mapreduce.Job: The url to track the job: http://bdw21-13:8088/proxy/application_1559684934279_25911/
+19/06/06 02:57:12 INFO mapreduce.Job: Running job: job_1559684934279_25911
+19/06/06 02:57:17 INFO mapreduce.Job: Job job_1559684934279_25911 running in uber mode : false
+19/06/06 02:57:17 INFO mapreduce.Job:  map 0% reduce 0%
+19/06/06 02:57:40 INFO mapreduce.Job:  map 2% reduce 0%
+19/06/06 02:57:41 INFO mapreduce.Job:  map 19% reduce 0%
+19/06/06 02:57:42 INFO mapreduce.Job:  map 80% reduce 0%
+19/06/06 02:57:43 INFO mapreduce.Job:  map 100% reduce 0%
+19/06/06 03:08:16 INFO mapreduce.Job: Task Id : attempt_1559684934279_25911_m_000020_0, Status : FAILED
+AttemptID:attempt_1559684934279_25911_m_000020_0 Timed out after 600 secs
+19/06/06 03:08:27 INFO mapreduce.Job: Job job_1559684934279_25911 completed successfully
+19/06/06 03:08:27 INFO mapreduce.Job: Counters: 31
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=65111826
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=34178
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=432
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Failed map tasks=1
+		Launched map tasks=433
+		Other local map tasks=433
+		Total time spent by all maps in occupied slots (ms)=10157622
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=10157622
+		Total vcore-milliseconds taken by all map tasks=10157622
+		Total megabyte-milliseconds taken by all map tasks=10401404928
+	Map-Reduce Framework
+		Map input records=432
+		Map output records=0
+		Input split bytes=34178
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=31650
+		CPU time spent (ms)=6088400
+		Physical memory (bytes) snapshot=138654367744
+		Virtual memory (bytes) snapshot=754187935744
+		Total committed heap usage (bytes)=356046077952
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+======= Generating refresh data time =========
+Start timestamp: 2019/06/06:02:57:10 1559807830
+Stop  timestamp: 2019/06/06:03:08:27 1559808507
+Duration:  0h 11m 17s
+datagen_refresh SUCCESSFUL
+time&status: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/times.csv
+full log: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+===============================================
+Verify data sizes
+===============================================
+12.7 M   38.0 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/customer
+5.1 M    15.4 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/customer_address
+74.2 M   222.5 M  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/customer_demographics
+14.7 M   44.0 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/date_dim
+151.5 K  454.4 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/household_demographics
+327      981      /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/income_band
+405.3 M  1.2 G    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/inventory
+6.5 M    19.5 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/item
+4.0 M    12.0 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/item_marketprices
+53.7 M   161.2 M  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/product_reviews
+45.3 K   135.9 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/promotion
+3.0 K    9.1 K    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/reason
+1.2 K    3.6 K    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/ship_mode
+3.3 K    9.9 K    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/store
+4.1 M    12.4 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/store_returns
+88.5 M   265.4 M  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/store_sales
+4.9 M    14.6 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/time_dim
+584      1.7 K    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/warehouse
+170.4 M  511.3 M  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/web_clickstreams
+7.9 K    23.6 K   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/web_page
+5.1 M    15.4 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/web_returns
+127.6 M  382.8 M  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/web_sales
+8.6 K    25.9 K   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data/web_site
+131.2 K  393.6 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/customer
+53.3 K   159.9 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/customer_address
+4.1 M    12.3 M   /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/inventory
+67.6 K   202.7 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/item
+41.5 K   124.6 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/item_marketprices
+560.2 K  1.6 M    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/product_reviews
+47.7 K   143.0 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/store_returns
+900.6 K  2.6 M    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/store_sales
+1.7 M    5.2 M    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/web_clickstreams
+54.6 K   163.9 K  /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/web_returns
+1.3 M    3.9 M    /home/tpc/Big-Data-Benchmark-for-Big-Bench/data_refresh/web_sales
+===============================================
+Hadoop data generation job finished. 
+logs: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+View generated files: hadoop fs -ls /home/tpc//Big-Data-Benchmark-for-Big-Bench/data
+View generated refresh files: hadoop fs -ls /home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh
+===============================================
+===============================================
+===============================================
+Adding/Updating generated files to hive metastore
+===============================================
+/home/tpc/Big-Data-Benchmark-for-Big-Bench/engines/hive/conf/engineSettings.conf: line 15: /root/spark-git/bin/spark-sql: No such file or directory
+An error occured while running command:
+==========
+runEngineCmd -f /home/tpc/Big-Data-Benchmark-for-Big-Bench/engines/hive/population/hiveCreateLoad.sql
+==========
+Please check the log files for details
+======= Load data into hive time =========
+Start timestamp: 2019/06/06:03:08:31 1559808511
+Stop  timestamp: 2019/06/06:03:08:31 1559808511
+Duration:  0h 0m 0s
+----- result -----
+Load data FAILED exit code: 127
+time&status: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/times.csv
+full log: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/populateMetastore-run_query.log
+===========================
+[1] 03:08:32 [SUCCESS] bdw21-18
+[2] 03:08:32 [SUCCESS] bdw21-21
+[3] 03:08:32 [SUCCESS] bdw21-16
+[4] 03:08:32 [SUCCESS] bdw21-19
+[5] 03:08:32 [SUCCESS] bdw21-20
+[6] 03:08:32 [SUCCESS] bdw21-15
+[7] 03:08:32 [SUCCESS] bdw21-14
+[8] 03:08:32 [SUCCESS] bdw21-17
+[1] 03:08:33 [SUCCESS] bdw21-18
+[2] 03:08:33 [SUCCESS] bdw21-21
+[3] 03:08:33 [SUCCESS] bdw21-16
+[4] 03:08:33 [SUCCESS] bdw21-19
+[5] 03:08:33 [SUCCESS] bdw21-20
+[6] 03:08:33 [SUCCESS] bdw21-14
+[7] 03:08:33 [SUCCESS] bdw21-15
+[8] 03:08:33 [SUCCESS] bdw21-17
+[1] 03:08:33 [SUCCESS] bdw21-21
+[2] 03:08:33 [SUCCESS] bdw21-19
+[3] 03:08:33 [SUCCESS] bdw21-16
+[4] 03:08:33 [SUCCESS] bdw21-14
+[5] 03:08:33 [SUCCESS] bdw21-18
+[6] 03:08:33 [SUCCESS] bdw21-17
+[7] 03:08:33 [SUCCESS] bdw21-20
+[8] 03:08:33 [SUCCESS] bdw21-15

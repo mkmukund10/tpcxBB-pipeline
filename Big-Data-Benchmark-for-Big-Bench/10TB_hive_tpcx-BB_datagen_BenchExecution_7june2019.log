@@ -1,0 +1,171 @@
+dropping database (with all tables)
+hive.execution.engine=mr
+hive.cbo.enable=false
+hive.stats.fetch.partition.stats=true
+hive.script.operator.truncate.env=false
+hive.compute.query.using.stats=false
+hive.vectorized.execution.enabled=true
+hive.vectorized.execution.reduce.enabled=false
+hive.stats.autogather=true
+mapreduce.input.fileinputformat.split.minsize=134217728
+mapreduce.input.fileinputformat.split.maxsize=134217728
+hive.exec.reducers.bytes.per.reducer=67108864
+hive.exec.reducers.max=1099
+hive.exec.parallel=false
+hive.exec.parallel.thread.number=8
+hive.exec.compress.intermediate=false
+hive.exec.compress.output=false
+mapred.map.output.compression.codec=org.apache.hadoop.io.compress.SnappyCodec
+mapred.output.compression.codec=org.apache.hadoop.io.compress.DefaultCodec
+hive.default.fileformat=TextFile
+hive.auto.convert.sortmerge.join=false
+hive.auto.convert.sortmerge.join.noconditionaltask is undefined
+hive.optimize.bucketmapjoin=false
+hive.optimize.bucketmapjoin.sortedmerge=false
+hive.auto.convert.join.noconditionaltask.size=20971520
+hive.auto.convert.join=true
+hive.optimize.mapjoin.mapreduce is undefined
+hive.mapred.local.mem=0
+hive.mapjoin.smalltable.filesize=25000000
+hive.mapjoin.localtask.max.memory.usage=0.9
+hive.optimize.skewjoin=false
+hive.optimize.skewjoin.compiletime=false
+hive.optimize.ppd=true
+hive.optimize.ppd.storage=true
+hive.ppd.recognizetransivity=true
+hive.optimize.index.filter=false
+hive.optimize.sampling.orderby.number=1000
+hive.optimize.sampling.orderby.percent=0.1
+bigbench.hive.optimize.sampling.orderby=true
+bigbench.hive.optimize.sampling.orderby.number=20000
+bigbench.hive.optimize.sampling.orderby.percent=0.1
+hive.groupby.skewindata=false
+hive.exec.submit.local.task.via.child=true
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+cleaning /home/tpc//Big-Data-Benchmark-for-Big-Bench
+Deleted /home/tpc/Big-Data-Benchmark-for-Big-Bench
+PDGFOptions: -sf 1 
+HadoopClusterExecOptions: -mapTasks 512
+EULA is accepted
+OK
+===============================================
+make hdfs benchmark data dir: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data
+===============================================
+OK
+===============================================
+make hdfs benchmark data dir: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh
+===============================================
+OK
+===============================================
+Creating data generator archive to upload to DistCache
+===============================================
+creating: /tmp/tmp.RyxD2drjyS/pdgfEnvironment.tar
+OK
+===============================================
+Starting distributed hadoop data generation job with: -mapTasks 512
+Temporary result data in hdfs: /home/tpc//Big-Data-Benchmark-for-Big-Bench/data (you can change the data generation target folder in  the /setEnvVars configuration file with the BIG_BENCH_HDFS_ABSOLUTE_INIT_DATA_DIR property)
+logs: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+===============================================
+HADOOP CLASSPATH: /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*
+PDGF_CLUSTER_CONF: -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1
+create /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs folder
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.RyxD2drjyS/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 512 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx1600m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 0 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+HadoopClusterExec -exec option args: [/usr/java/jdk1.7.0_67-cloudera/bin/java, -Xmx1600m, -cp, /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar, -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber, -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml, -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml, -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native, -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider, -Ddfs.replication.override=-1, pdgf.Controller, -nc, HadoopClusterExec.tasks, -nn, HadoopClusterExec.taskNumber, -ns, -c, -sp, REFRESH_PHASE, 0, -o, '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data/'+table.getName()+'/', -workers, 1, -ap, 3000, -s, -sf, 1]
+HadoopClusterExec -mapTasks: Setting number of map tasks to: 512
+HadoopClusterExec -execCWD: set working directory for exec to: pdgfEnvironment.tar/data-generator/
+
+-------Distributed cache content -----------
+Cache Archives:
+
+Cache Files:
+
+Archive Classpaths:
+
+Local Cache Archives:
+
+Local Cache Files:
+-------/Distributed cache content -----------
+
+19/06/07 05:10:15 INFO client.RMProxy: Connecting to ResourceManager at bdw21-13/1.1.21.13:8032
+19/06/07 05:10:16 INFO hadoop.HadoopClusterExec: HadoopClusterExec.numMaps=512
+19/06/07 05:10:16 INFO hadoop.HadoopClusterExec: CUSTOM SPLITS: Starting 512 tasks
+19/06/07 05:10:16 INFO mapreduce.JobSubmitter: number of splits:512
+19/06/07 05:10:16 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1559891146385_0001
+19/06/07 05:10:17 INFO impl.YarnClientImpl: Submitted application application_1559891146385_0001
+19/06/07 05:10:17 INFO mapreduce.Job: The url to track the job: http://bdw21-13:8088/proxy/application_1559891146385_0001/
+19/06/07 05:10:17 INFO mapreduce.Job: Running job: job_1559891146385_0001
+19/06/07 05:33:03 INFO mapreduce.Job: Job job_1559891146385_0001 running in uber mode : false
+19/06/07 05:33:03 INFO mapreduce.Job:  map 0% reduce 0%
+19/06/07 05:33:03 INFO mapreduce.Job: Job job_1559891146385_0001 failed with state KILLED due to: Application killed by user.
+19/06/07 05:33:03 INFO mapreduce.Job: Counters: 0
+An error occured while running command:
+==========
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.RyxD2drjyS/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 512 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx1600m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 0 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+==========
+Please check the log files for details
+======= Generating base data time ============ tee -a /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+----- time -----
+Start timestamp: 2019/06/07:05:10:14 1559902214
+Stop  timestamp: 2019/06/07:05:33:03 1559903583
+Duration: 0h 22m 49s
+datagen_base successOrFailFAILED exit code: 1
+time&status: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/times.csv
+full log: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.RyxD2drjyS/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 512 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx1600m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 1 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+HadoopClusterExec -exec option args: [/usr/java/jdk1.7.0_67-cloudera/bin/java, -Xmx1600m, -cp, /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar, -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber, -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml, -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml, -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native, -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider, -Ddfs.replication.override=-1, pdgf.Controller, -nc, HadoopClusterExec.tasks, -nn, HadoopClusterExec.taskNumber, -ns, -c, -sp, REFRESH_PHASE, 1, -o, '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh/'+table.getName()+'/', -workers, 1, -ap, 3000, -s, -sf, 1]
+HadoopClusterExec -mapTasks: Setting number of map tasks to: 512
+HadoopClusterExec -execCWD: set working directory for exec to: pdgfEnvironment.tar/data-generator/
+
+-------Distributed cache content -----------
+Cache Archives:
+
+Cache Files:
+
+Archive Classpaths:
+
+Local Cache Archives:
+
+Local Cache Files:
+-------/Distributed cache content -----------
+
+19/06/07 05:33:04 INFO client.RMProxy: Connecting to ResourceManager at bdw21-13/1.1.21.13:8032
+19/06/07 05:33:05 INFO hadoop.HadoopClusterExec: HadoopClusterExec.numMaps=512
+19/06/07 05:33:05 INFO hadoop.HadoopClusterExec: CUSTOM SPLITS: Starting 512 tasks
+19/06/07 05:33:05 INFO mapreduce.JobSubmitter: number of splits:512
+19/06/07 05:33:05 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1559891146385_0002
+19/06/07 05:33:06 INFO impl.YarnClientImpl: Submitted application application_1559891146385_0002
+19/06/07 05:33:06 INFO mapreduce.Job: The url to track the job: http://bdw21-13:8088/proxy/application_1559891146385_0002/
+19/06/07 05:33:06 INFO mapreduce.Job: Running job: job_1559891146385_0002
+19/06/07 05:33:59 INFO mapreduce.Job: Job job_1559891146385_0002 running in uber mode : false
+19/06/07 05:33:59 INFO mapreduce.Job:  map 0% reduce 0%
+19/06/07 05:33:59 INFO mapreduce.Job: Job job_1559891146385_0002 failed with state KILLED due to: Application killed by user.
+19/06/07 05:33:59 INFO mapreduce.Job: Counters: 0
+An error occured while running command:
+==========
+hadoop jar /home/tpc/Big-Data-Benchmark-for-Big-Bench/tools/HadoopClusterExec.jar -archives /tmp/tmp.RyxD2drjyS/pdgfEnvironment.tar -taskFailOnNonZeroReturnValue -execCWD pdgfEnvironment.tar/data-generator/ -mapTasks 512 -exec /usr/java/jdk1.7.0_67-cloudera/bin/java -Xmx1600m -cp /etc/hadoop/conf:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/./:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-hdfs/.//*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/lib/*:/opt/cloudera/parcels/CDH-5.12.2-1.cdh5.12.2.p0.4/lib/hadoop/libexec/../../hadoop-yarn/.//*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/lib/*:/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/.//*:pdgf.jar -Dpdgf.log.folder=/tmp/pdgfLog/HadoopClusterExec.taskNumber -Dcore-site.xml=/etc/hadoop/conf.cloudera.hdfs/core-site.xml -Dhdfs-site.xml=/etc/hadoop/conf.cloudera.hdfs/hdfs-site.xml -Djava.library.path=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -DFileChannelProvider=pdgf.util.caching.fileWriter.HDFSChannelProvider -Ddfs.replication.override=-1 pdgf.Controller -nc HadoopClusterExec.tasks -nn HadoopClusterExec.taskNumber -ns -c -sp REFRESH_PHASE 1 -o '/home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh/'+table.getName()+'/' -workers 1 -ap 3000 -s -sf 1
+==========
+Please check the log files for details
+======= Generating refresh data time =========
+Start timestamp: 2019/06/07:05:33:03 1559903583
+Stop  timestamp: 2019/06/07:05:33:59 1559903639
+Duration:  0h 0m 56s
+datagen_refresh FAILED exit code: 1
+time&status: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/times.csv
+full log: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+===============================================
+Verify data sizes
+===============================================
+===============================================
+Hadoop data generation job finished. 
+logs: /home/tpc/Big-Data-Benchmark-for-Big-Bench/logs/dataGeneration-run_query.log
+View generated files: hadoop fs -ls /home/tpc//Big-Data-Benchmark-for-Big-Bench/data
+View generated refresh files: hadoop fs -ls /home/tpc//Big-Data-Benchmark-for-Big-Bench/data_refresh
+===============================================
+===============================================
+An error occured while running command:
+==========
+runModule
+==========
+Please check the log files for details
+Error: yarn was not able to find any hosts.

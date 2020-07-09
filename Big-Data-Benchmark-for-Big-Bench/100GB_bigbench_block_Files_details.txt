@@ -1,0 +1,2159 @@
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/customer at Tue Jun 11 06:58:33 CDT 2019
+/user/hive/warehouse/bigbench.db/customer <dir>
+/user/hive/warehouse/bigbench.db/customer/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076210936_2470915 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:33 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/customer' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/customer_address at Tue Jun 11 06:58:35 CDT 2019
+/user/hive/warehouse/bigbench.db/customer_address <dir>
+/user/hive/warehouse/bigbench.db/customer_address/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076210963_2470942 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:35 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/customer_address' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/customer_demographics at Tue Jun 11 06:58:37 CDT 2019
+/user/hive/warehouse/bigbench.db/customer_demographics <dir>
+/user/hive/warehouse/bigbench.db/customer_demographics/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076210991_2470970 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:37 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/customer_demographics' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/date_dim at Tue Jun 11 06:58:40 CDT 2019
+/user/hive/warehouse/bigbench.db/date_dim <dir>
+/user/hive/warehouse/bigbench.db/date_dim/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211019_2470998 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:40 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/date_dim' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/household_demographics at Tue Jun 11 06:58:42 CDT 2019
+/user/hive/warehouse/bigbench.db/household_demographics <dir>
+/user/hive/warehouse/bigbench.db/household_demographics/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211046_2471025 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:42 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/household_demographics' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/income_band at Tue Jun 11 06:58:44 CDT 2019
+/user/hive/warehouse/bigbench.db/income_band <dir>
+/user/hive/warehouse/bigbench.db/income_band/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211074_2471053 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:44 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/income_band' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/inventory at Tue Jun 11 06:58:46 CDT 2019
+/user/hive/warehouse/bigbench.db/inventory <dir>
+/user/hive/warehouse/bigbench.db/inventory/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211352_2471331 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:46 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/inventory' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/item at Tue Jun 11 06:58:48 CDT 2019
+/user/hive/warehouse/bigbench.db/item <dir>
+/user/hive/warehouse/bigbench.db/item/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211102_2471081 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:48 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/item' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/item_marketprices at Tue Jun 11 06:58:50 CDT 2019
+/user/hive/warehouse/bigbench.db/item_marketprices <dir>
+/user/hive/warehouse/bigbench.db/item_marketprices/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211490_2471469 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:50 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/item_marketprices' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/product_reviews at Tue Jun 11 06:58:52 CDT 2019
+/user/hive/warehouse/bigbench.db/product_reviews <dir>
+/user/hive/warehouse/bigbench.db/product_reviews/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211547_2471526 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:52 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/product_reviews' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/promotion at Tue Jun 11 06:58:54 CDT 2019
+/user/hive/warehouse/bigbench.db/promotion <dir>
+/user/hive/warehouse/bigbench.db/promotion/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211129_2471108 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:54 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/promotion' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_power_test_0_temp at Tue Jun 11 06:58:56 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_power_test_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_power_test_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:56 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_power_test_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_0_temp at Tue Jun 11 06:58:59 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:58:59 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_1_temp at Tue Jun 11 06:59:01 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_1_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_1_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:01 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_1_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_2_temp at Tue Jun 11 06:59:03 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_2_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_2_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:03 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_2_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_3_temp at Tue Jun 11 06:59:05 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_3_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_3_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:05 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_3_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_4_temp at Tue Jun 11 06:59:07 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_4_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_4_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:07 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_4_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_5_temp at Tue Jun 11 06:59:09 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_5_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_5_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:09 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_5_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_6_temp at Tue Jun 11 06:59:11 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_6_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_6_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:11 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_6_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_7_temp at Tue Jun 11 06:59:13 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_7_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_7_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:13 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_7_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_8_temp at Tue Jun 11 06:59:15 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_8_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_8_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:15 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_8_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_9_temp at Tue Jun 11 06:59:18 CDT 2019
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_9_temp <dir>
+/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_9_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:18 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q05_hive_throughput_test_1_9_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_power_test_0_temp at Tue Jun 11 06:59:20 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_power_test_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_power_test_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:20 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_power_test_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_0_temp at Tue Jun 11 06:59:22 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:22 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_1_temp at Tue Jun 11 06:59:24 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_1_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_1_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:24 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_1_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_2_temp at Tue Jun 11 06:59:26 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_2_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_2_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:26 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_2_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_3_temp at Tue Jun 11 06:59:28 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_3_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_3_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:28 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_3_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_4_temp at Tue Jun 11 06:59:30 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_4_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_4_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:30 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_4_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_5_temp at Tue Jun 11 06:59:32 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_5_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_5_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:32 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_5_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_6_temp at Tue Jun 11 06:59:34 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_6_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_6_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:34 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_6_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_7_temp at Tue Jun 11 06:59:37 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_7_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_7_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:37 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_7_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_8_temp at Tue Jun 11 06:59:39 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_8_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_8_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:39 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_8_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_9_temp at Tue Jun 11 06:59:41 CDT 2019
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_9_temp <dir>
+/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_9_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:41 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q20_hive_throughput_test_1_9_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_power_test_0_temp_result at Tue Jun 11 06:59:43 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_power_test_0_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_power_test_0_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:43 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_power_test_0_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_0_temp_result at Tue Jun 11 06:59:45 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_0_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_0_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:45 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_0_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_1_temp_result at Tue Jun 11 06:59:47 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_1_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_1_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:47 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_1_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_2_temp_result at Tue Jun 11 06:59:49 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_2_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_2_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:49 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_2_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_3_temp_result at Tue Jun 11 06:59:51 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_3_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_3_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:51 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_3_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_4_temp_result at Tue Jun 11 06:59:53 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_4_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_4_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:53 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_4_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_5_temp_result at Tue Jun 11 06:59:56 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_5_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_5_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:56 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_5_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_6_temp_result at Tue Jun 11 06:59:58 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_6_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_6_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 06:59:58 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_6_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_7_temp_result at Tue Jun 11 07:00:00 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_7_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_7_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:00 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_7_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_8_temp_result at Tue Jun 11 07:00:02 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_8_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_8_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:02 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_8_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_9_temp_result at Tue Jun 11 07:00:04 CDT 2019
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_9_temp_result <dir>
+/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_9_temp_result/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:04 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q25_hive_throughput_test_1_9_temp_result' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_power_test_0_temp at Tue Jun 11 07:00:06 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_power_test_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_power_test_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:06 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_power_test_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_0_temp at Tue Jun 11 07:00:08 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_0_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_0_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:08 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_0_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_1_temp at Tue Jun 11 07:00:10 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_1_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_1_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:10 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_1_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_2_temp at Tue Jun 11 07:00:13 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_2_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_2_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:13 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_2_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_3_temp at Tue Jun 11 07:00:15 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_3_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_3_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:15 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_3_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_4_temp at Tue Jun 11 07:00:17 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_4_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_4_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:17 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_4_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_5_temp at Tue Jun 11 07:00:19 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_5_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_5_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:19 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_5_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_6_temp at Tue Jun 11 07:00:21 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_6_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_6_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:21 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_6_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_7_temp at Tue Jun 11 07:00:23 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_7_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_7_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:23 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_7_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_8_temp at Tue Jun 11 07:00:25 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_8_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_8_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:25 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_8_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_9_temp at Tue Jun 11 07:00:27 CDT 2019
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_9_temp <dir>
+/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_9_temp/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:27 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q26_hive_throughput_test_1_9_temp' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_testing at Tue Jun 11 07:00:29 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:29 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_training at Tue Jun 11 07:00:32 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:32 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_power_test_0_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_testing at Tue Jun 11 07:00:34 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:34 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_training at Tue Jun 11 07:00:36 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:36 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_0_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_testing at Tue Jun 11 07:00:38 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:38 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_training at Tue Jun 11 07:00:40 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:40 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_1_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_testing at Tue Jun 11 07:00:42 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:42 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_training at Tue Jun 11 07:00:44 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:44 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_2_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_testing at Tue Jun 11 07:00:46 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:46 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_training at Tue Jun 11 07:00:48 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:48 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_3_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_testing at Tue Jun 11 07:00:50 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:50 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_training at Tue Jun 11 07:00:53 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:53 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_4_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_testing at Tue Jun 11 07:00:55 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:55 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_training at Tue Jun 11 07:00:57 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:57 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_5_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_testing at Tue Jun 11 07:00:59 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:00:59 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_training at Tue Jun 11 07:01:01 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:01 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_6_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_testing at Tue Jun 11 07:01:03 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:03 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_training at Tue Jun 11 07:01:05 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:05 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_7_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_testing at Tue Jun 11 07:01:07 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:07 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_training at Tue Jun 11 07:01:09 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:09 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_8_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_testing at Tue Jun 11 07:01:12 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_testing <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_testing/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:12 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_testing' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_training at Tue Jun 11 07:01:14 CDT 2019
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_training <dir>
+/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_training/000000_0 0 bytes, 0 block(s):  OK
+
+Status: HEALTHY
+ Total size:	0 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	0
+ Minimally replicated blocks:	0
+ Over-replicated blocks:	0
+ Under-replicated blocks:	0
+ Mis-replicated blocks:		0
+ Default replication factor:	3
+ Average block replication:	0.0
+ Corrupt blocks:		0
+ Missing replicas:		0
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:14 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/q28_hive_throughput_test_1_9_temp_training' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/reason at Tue Jun 11 07:01:16 CDT 2019
+/user/hive/warehouse/bigbench.db/reason <dir>
+/user/hive/warehouse/bigbench.db/reason/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211157_2471136 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:16 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/reason' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/ship_mode at Tue Jun 11 07:01:18 CDT 2019
+/user/hive/warehouse/bigbench.db/ship_mode <dir>
+/user/hive/warehouse/bigbench.db/ship_mode/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211184_2471163 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:18 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/ship_mode' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/store at Tue Jun 11 07:01:20 CDT 2019
+/user/hive/warehouse/bigbench.db/store <dir>
+/user/hive/warehouse/bigbench.db/store/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211213_2471192 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:20 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/store' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/store_returns at Tue Jun 11 07:01:22 CDT 2019
+/user/hive/warehouse/bigbench.db/store_returns <dir>
+/user/hive/warehouse/bigbench.db/store_returns/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211408_2471387 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:22 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/store_returns' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/store_sales at Tue Jun 11 07:01:24 CDT 2019
+/user/hive/warehouse/bigbench.db/store_sales <dir>
+/user/hive/warehouse/bigbench.db/store_sales/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211380_2471359 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:24 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/store_sales' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/time_dim at Tue Jun 11 07:01:26 CDT 2019
+/user/hive/warehouse/bigbench.db/time_dim <dir>
+/user/hive/warehouse/bigbench.db/time_dim/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211240_2471219 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:26 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/time_dim' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/warehouse at Tue Jun 11 07:01:29 CDT 2019
+/user/hive/warehouse/bigbench.db/warehouse <dir>
+/user/hive/warehouse/bigbench.db/warehouse/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211268_2471247 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:29 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/warehouse' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/web_clickstreams at Tue Jun 11 07:01:31 CDT 2019
+/user/hive/warehouse/bigbench.db/web_clickstreams <dir>
+/user/hive/warehouse/bigbench.db/web_clickstreams/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211518_2471497 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:31 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/web_clickstreams' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/web_page at Tue Jun 11 07:01:33 CDT 2019
+/user/hive/warehouse/bigbench.db/web_page <dir>
+/user/hive/warehouse/bigbench.db/web_page/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211324_2471303 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:33 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/web_page' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/web_returns at Tue Jun 11 07:01:35 CDT 2019
+/user/hive/warehouse/bigbench.db/web_returns <dir>
+/user/hive/warehouse/bigbench.db/web_returns/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211463_2471442 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:35 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/web_returns' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/web_sales at Tue Jun 11 07:01:37 CDT 2019
+/user/hive/warehouse/bigbench.db/web_sales <dir>
+/user/hive/warehouse/bigbench.db/web_sales/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211435_2471414 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:37 CDT 2019 in 0 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/web_sales' is HEALTHY
+FSCK started by root (auth:SIMPLE) from /1.1.21.13 for path /user/hive/warehouse/bigbench.db/web_site at Tue Jun 11 07:01:39 CDT 2019
+/user/hive/warehouse/bigbench.db/web_site <dir>
+/user/hive/warehouse/bigbench.db/web_site/000000_0 49 bytes, 1 block(s):  OK
+0. BP-1704754621-1.1.21.13-1558413910334:blk_1076211296_2471275 len=49 Live_repl=3
+
+Status: HEALTHY
+ Total size:	49 B
+ Total dirs:	1
+ Total files:	1
+ Total symlinks:		0
+ Total blocks (validated):	1 (avg. block size 49 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Number of data-nodes:		8
+ Number of racks:		1
+FSCK ended at Tue Jun 11 07:01:39 CDT 2019 in 1 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/bigbench.db/web_site' is HEALTHY
